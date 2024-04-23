@@ -1,5 +1,3 @@
-Certainly! Here's the README content in Markdown format:
-
 ```markdown
 # Chrome Extension and Electron Desktop App
 
