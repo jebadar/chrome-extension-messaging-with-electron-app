@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; media-src blob:;">
+
+    <title>Testing Communication with chrome!</title>
+</head>
+
+<body>
+    <h2>Listening Active-tab's Network Logs</h2>
+    <p id="click"></p>
+    <p id="move"></p>
+    <button id="capture">Start record</button>
+    <div id="urls"></div>
+    <!-- <img id="image" src="" alt="">
+    <div style="display: none !important;">
+        <video src="" ></video>
+    </div> -->
+    <script src="./renderer.js"></script>
+</body>
+
+</html>

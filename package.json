@@ -1,0 +1,36 @@
+{
+  "name": "get-started",
+  "version": "1.0.0",
+  "description": "electron get started app",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "badar",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.0"
+  },
+  "dependencies": {
+    "electron-abi": "^1.1.0",
+    "electron-store": "^8.1.0",
+    "iohook": "^0.9.3"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "iohook": {
+    "targets": [
+      "electron-82"
+    ],
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  }
+}
