@@ -1,5 +1,5 @@
 
-# Chrome Extension and Electron Desktop App
+# Synchronous Chrome Extension Messaging and Electron Desktop App
 
 This repository contains code for two applications: a Chrome extension and an Electron JS desktop application. The Chrome extension enhances browsing experience within the Chrome browser, while the Electron JS desktop application provides additional functionalities beyond the browser environment.
 
